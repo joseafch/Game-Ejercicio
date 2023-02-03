@@ -1,0 +1,109 @@
+<div class="background">
+    <app-header></app-header>
+<div class="tittle"><h2 >whos-is-it !</h2></div>
+<div class="people-content">
+    
+    <div  class="card" *ngFor="let gente of people" >
+<img [ngClass]="{'man':gente.gender ==='Man' && man
+ || gente.gender ==='Woman' && woman 
+
+ || gente.hairColor ==='Blonde' && hairBlonde 
+ || gente.hairColor ==='Red' && hairRed
+ || gente.hairColor ==='Pinck' && hairPink
+ || gente.hairColor ==='Brown' && hairBrown
+ || gente.hairColor ==='White' && hairWhite
+ || gente.hairColor ==='Black' && hairBlack
+
+ || gente.moustache ==='Yes' && moustacheSi
+ || gente.moustache ==='No' && moustacheNo
+
+ || gente.glasses ==='Yes' && glassesSi
+ || gente.glasses ==='No' && glassesNo
+
+ || gente.hatOrCap ==='Yes' && hatSi
+ || gente.hatOrCap ==='No' && hatNo
+
+ || gente.clothesColor ==='Orange' && clothesOrange
+ || gente.clothesColor ==='Red' &&  clothesRed
+ || gente.clothesColor ==='Pink' && clothesPink
+ || gente.clothesColor ==='Green' && clothesGreen
+ || gente.clothesColor ==='White' && clothesWhite
+ || gente.clothesColor ==='Black' && clothesBlack
+
+ || gente.skinColor ==='Light' && skinColorLigth
+ || gente.skinColor ==='Dark' && skinColorDarck
+
+ || gente.longHair ==='Yes' && longHairYes
+ || gente.longHair ==='No' && longHairNO
+
+
+
+
+
+
+
+}" src="{{gente.img}}" alt="">
+
+    </div >
+</div>
+    <div class="button-div-padre">
+    <div class="box-button">
+   <div class="question"> <h3>Genero</h3></div>
+    
+
+<button  (click)='youHave(man=true)'>Hombre</button>
+<button  (click)='youHave(woman=true)'>Mujer</button>
+</div>
+
+<div class="box-button"><!-- color de pelo-->
+   <div class="question"> <h3>Pelo</h3></div>
+
+    <button  (click)='youHave(hairBlonde=true)'>Rubia</button>
+<button  (click)='youHave(hairRed=true)'>Rojo</button>
+<button  (click)='youHave(hairPink=true)'>rosa</button>
+<button  (click)='youHave(hairBrown=true)'>Marron</button>
+<button  (click)='youHave(hairWhite=true)'>Blanco(suggarDady/Mommy)</button>
+<button  (click)='youHave(hairBlack=true)'>Negro</button>
+</div>
+<div class="box-button"><!-- bigote-->
+   <div class="question"> <h3>Bigote</h3></div>
+    
+    <button  (click)='youHave(moustacheSi=true)'>si</button>
+    <button  (click)='youHave(moustacheNo=true)'>No</button>
+</div>
+<div class="box-button"><!-- lentes-->
+   <div class="question"> <h3>Lentes</h3></div>
+
+    <button  (click)='youHave(glassesSi=true)'>si</button>
+    <button  (click)='youHave(glassesNo=true)'>No</button>
+</div>
+<div class="box-button"><!-- gorra-->
+   <div class="question"> <h3>Sombrero o Gorra</h3></div>
+
+    <button  (click)='youHave(hatSi=true)'>si</button>
+    <button  (click)='youHave(hatNo=true)'>No</button>
+</div>
+<div class="box-button"><!-- color de ropa-->
+   <div class="question"> <h3>Color de ropa</h3></div>
+
+    <button  (click)='youHave(clothesOrange=true)'>Naranjaa</button>
+    <button  (click)='youHave(clothesRed=true)'>Roja</button>
+    <button  (click)='youHave(clothesPink=true)'>Rosa</button>
+    <button  (click)='youHave(clothesGreen=true)'>Verde</button>
+    <button  (click)='youHave(clothesWhite=true)'>Blanca</button>
+    <button  (click)='youHave(clothesBlack=true)'>Negra</button>
+    </div>
+    <div class="box-button"><!-- color de piel-->
+   <div class="question"> <h3>Tono de piel</h3></div>
+
+        <button  (click)='youHave(skinColorLigth=true)'>Claro</button>
+        <button  (click)='youHave(skinColorDarck=true)'>Oscuro</button>
+    </div>
+    <div class="box-button"><!-- largo de pelo-->
+   <div class="question"> <h3>Tamaño del Pelo</h3></div>
+
+        <button  (click)='youHave(longHairYes=true)'>Largo</button>
+        <button  (click)='youHave(longHairNO=true)'>Corto</button>
+    </div>
+</div>
+</div>

@@ -1,0 +1,46 @@
+img{
+    width: 100%;
+}
+.mole-div{
+    display: flex;
+    width: 20%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    // justify-content: center;
+}
+.cards-box{
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    // justify-content: center;
+
+}
+.div-img{
+    width: 100%;
+    border: 1px solid black;
+}
+.div-padre{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    // gap: 20px;
+    background-image: url(https://wallpaperforu.com/wp-content/uploads/2021/08/Wallpaper-Pokemon-Wallpaper-Pokemon-Minimalism-Squirtle44.jpg);
+// background-size: cover;
+
+
+}
+.div-buttons{
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    
+}
+.div-img-topo{
+    width: 100%;
+    // border: 1px solid black;
+}

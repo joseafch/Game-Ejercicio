@@ -1,0 +1,102 @@
+.table{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.div-padre{
+width: 100%;
+padding-top: 50px 0px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-image: url(https://p4.wallpaperbetter.com/wallpaper/151/270/323/anime-one-piece-wallpaper-preview.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 120%;
+// padding: 20px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:40%;
+    
+    justify-content: center;
+    align-items: center;
+   
+}
+.cards{
+    width: 30%;
+   
+}
+
+.sombrero-de-paja-back{
+    width: 100%;
+
+}
+.x-back{
+    // background-image: url(https://i.pinimg.com/564x/7a/52/e0/7a52e0d47f7202a2dd5ab7fde284f243.jpg);
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    width: 100%;
+}
+.one-pice-back{
+    width: 100%;
+
+}
+.strink{
+    color: white;
+    font-weight: 900;
+    background-color: black;
+    padding: 5px;
+    border-radius: 10px;
+}
+.winer{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: 900;
+    // padding: 20px;
+}
+.reload{
+    padding: 20px;
+    // margin: 20px;
+}
+.winer-img{
+    width: 100%;
+    // height: 200px;
+    border-radius: 10px;
+
+}
+.winer-conditions{
+    display: flex;
+    flex-direction: row;
+    
+}
+.winer-onepiece{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.winer-gif{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.one-piece-title{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 5px;
+}

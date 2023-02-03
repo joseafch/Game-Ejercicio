@@ -1,0 +1,27 @@
+<div class="div-padre">
+<app-header></app-header>
+    <div>
+        <h3>time({{time}})</h3>
+    </div>
+    <div>
+        <h3>score({{score}})</h3>
+    </div>
+    <div class="cards-box">
+        <div class="mole-div" *ngFor="let topo of mole ">
+
+            <div *ngIf="topo.id===1" class="div-img-topo">
+                <img (click)="hit()" src="{{topo.img}}" alt="">
+            </div>
+
+
+            <div *ngIf="!topo.id" class="div-img">
+                <img src="./assets/public/exercise-2/bg.jpg" alt="">
+
+            </div>
+        </div>
+    </div>
+    <div class="div-buttons">
+        <button (click)="boton()">play</button>
+        <button (click)="stop()">stop</button>
+    </div>
+</div>

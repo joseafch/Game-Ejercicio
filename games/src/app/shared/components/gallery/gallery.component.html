@@ -1,0 +1,46 @@
+<div class="div-background">
+  <app-header></app-header>
+<div class="no-hit-div">
+  <h2 class="no-hit-pve">Intentos({{intentos}})</h2>
+  <div class="no-hit-zone">
+    <h2>Hay no hit. ¿Lo lograras?</h2>
+    <div class="no-hit-img"><img class="img-zone"  src="https://nohitzone.com/wp-content/uploads/2021/09/no-hit-zone-logo2.png" alt=""></div>
+  </div>
+</div>
+<div *ngIf="sucesoscount < (planets.length/2)" class="div-padre">
+ 
+<div  class="card-planet" *ngFor="let planet of planets">
+  
+    <!-- <p class="name-planet">{{planet.name}}</p> -->
+    <img class="planet-img" *ngIf="planet.selec" #imgCard src="{{planet.img}}" alt=""> <!--le ponemos una condicional para q lo muestre o no en este caso se le pone viendo si tiene propiedad y no la tiene se le crea-->
+    <img class="tick-img" *ngIf="planet.check" src="../../../../assets/public/exercise-1/tick.svg" alt="">
+    <img class="universe-img" *ngIf="!planet.selec && !planet.check "  (click)="memori(planet)" src="../../../../assets/public/exercise-1/universe.svg" alt="">
+  
+   <!-- si cualquiere de las mdos de arriba sucede el del clip no suceda -->
+</div>
+
+</div>
+
+<div  class="victori-div" *ngIf="sucesoscount === (planets.length/2)"> <!--*ngIf="sucesoscount === (planets.length/2)"-->
+  <div class="box-victori">
+  <div class="por-img"><img class="por-img" src="https://i.ytimg.com/vi/XE0EuDTuXoE/maxresdefault.jpg" alt=""></div>
+  <div><h2>Intentos({{intentos}})</h2>
+  <div class="equipo-no-hit" *ngIf="intentos === 6">
+    <h1 class="title-no-hit">Lo lograste!... eres un no hiter</h1>
+    <div class="img-no-hit"><img src="https://areajugones.sport.es/wp-content/uploads/2021/12/promo-informenohit-personas-1-2.jpg" alt=""></div>
+    </div>
+  </div>
+ 
+  <button (click)="recarga()" >reset</button>
+  </div>
+</div>
+</div>
+
+<!-- 1º le ponemos una condicional para q lo muestre o no en este caso se le pone viendo si tiene propiedad y no la tiene se le crea-->
+<!-- 2ºcreamos un boton en el elemto que no queremos que cambie -->
+<!-- º3con el boton mandamos la carta para chequearla  -->
+<!-- 4º -->
+
+
+    <!-- <button #imgCard class="img_card" (click)="memori(planet.name)" ><img src="{{planet.univese}}" alt=""></button> -->
+  <!-- <img src="../../../../assets/public/exercise-1/earth.svg" alt=""> -->

@@ -1,0 +1,33 @@
+
+
+<div class="div-padre">
+   <app-header></app-header>
+   <h3 class="strink">Intentos({{count}})</h3>
+<div *ngIf="!win " class="row" >
+   <div class="cards" *ngFor="let cards of tabla">
+      
+<!-- <p>{{cards.id}}</p> activa los trucos -->
+      <img class="one-pice-back" *ngIf="cards.check"  src="./assets/public/exercise-4/chest.png" alt=""> 
+
+     <img class="x-back" *ngIf="!cards.selec && !cards.check"  (click)="buscar(cards)" src="https://cdn.pixabay.com/photo/2022/11/20/20/54/map-7605227_960_720.png" alt=""> 
+
+     <img class="sombrero-de-paja-back"  *ngIf="cards.selec" src="./assets/public/exercise-4/skull.png" alt=""> 
+   
+</div>
+<button (click)="recarga()">reload</button>
+
+   <!-- <img src="{{pintar.imgX}}" alt=""> -->
+</div>
+<div class="winer"  *ngIf="win ">
+   <h2 class="one-piece-title" >Ganaste!!!</h2>
+   <div class="winer-conditions">
+   <div class="winer-onepiece" *ngIf="count ===1 ">
+      <h2 class="one-piece-title">Encontraste el One piece!!!Te ahorraste mas de 1000 episodios </h2>
+      <div class="winer-gif"> <img class="winer-img" src="https://media.tenor.com/J3go3QekrXAAAAAd/one-piece.gif" alt=""></div>
+   </div>
+   <img *ngIf="count > 1 "  class="winer-img" src="https://3.bp.blogspot.com/-3oLWVgdwshI/Wx8oLLKPhOI/AAAAAAALbjU/JeZY26BxtkwLVFvyHcA9Ec814z19he_dACLcBGAs/s1600/AS0004078_00.gif" alt="">
+</div>  
+   <button class="reload" (click)="recarga()">reload</button>
+
+</div>
+</div>

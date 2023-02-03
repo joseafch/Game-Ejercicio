@@ -1,0 +1,67 @@
+img{
+    width: 100px;
+}
+.people-content{
+    display: flex;
+    flex-wrap: wrap;
+    // background-image: url(https://dia.unison.mx/wp-content/uploads/2018/09/WEB-AVISOS-OBRA-1.jpg);
+    background-size: cover;
+    justify-content: center;
+    gap: 10px;
+}
+.man{
+    opacity: 0.2;
+}
+.button-div-padre{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    margin: 10px 0px;
+
+}
+.box-button{
+    border: solid 4px greenyellow;
+    text-align: center;
+    // flex-wrap: wrap;
+
+    background-color:  rgb(184, 30, 184,0.3);
+padding: 5px;
+    border-radius: 10px;
+    // gap: 10px;
+    justify-content: center;
+    display: flex;
+
+    box-shadow: 0px 0px 10px 5px greenyellow;
+
+
+}
+.card{
+    border: solid 3px rgb(184, 30, 184);
+    background-color:  rgb(184, 30, 184,0.3);
+    box-shadow: 0px 0px 10px 5px greenyellow;
+
+}
+.background{
+    background-image: url(https://w0.peakpx.com/wallpaper/561/539/HD-wallpaper-question-sign-question-mark-neon-glow-dark.jpg);
+background-size: cover;
+padding: 20px;
+}
+.tittle{
+    text-align: center;
+    width: 100%;
+    color:rgb(184, 30, 184);
+    font-weight: 900;
+    font-family: 'Arcade';
+
+    
+}
+button{
+    font-family: 'Arcade';
+}
+.question{
+    width: 100%;
+    margin: 0;
+    color: greenyellow;
+}
