@@ -21,6 +21,8 @@ img{
 .div-img{
     width: 100%;
     border: 1px solid black;
+    box-shadow: 0px 0px 30px 5px greenyellow;
+
 }
 .div-padre{
     width: 100%;
@@ -28,8 +30,11 @@ img{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: black;
+    background-size: cover;
+    color: white;
     // gap: 20px;
-    background-image: url(https://wallpaperforu.com/wp-content/uploads/2021/08/Wallpaper-Pokemon-Wallpaper-Pokemon-Minimalism-Squirtle44.jpg);
+    // background-image: url(https://wallpaperforu.com/wp-content/uploads/2021/08/Wallpaper-Pokemon-Wallpaper-Pokemon-Minimalism-Squirtle44.jpg);
 // background-size: cover;
 
 

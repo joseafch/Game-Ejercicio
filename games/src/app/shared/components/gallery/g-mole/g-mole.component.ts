@@ -13,7 +13,7 @@ export class GMoleComponent implements OnInit{
   selec:false,
 }]
 inicialMole?:moleInterface[]
-time:any=60;
+time:any=10;
 ngOnInit(){
 this.score=0
 }
@@ -26,7 +26,7 @@ stop(){
 }
 boton(){
  if(this.time===0){
-this.time=60
+// this.time=60
  }else{
   this.time--
   setTimeout(()=>
@@ -46,7 +46,7 @@ this.time=60
     
 }
 randormizer(randormizer:any){
-  return randormizer.sort(()=> 0.5 - Math.random())
+  return randormizer.sort(()=> 0.3 - Math.random())
 }
 
 }

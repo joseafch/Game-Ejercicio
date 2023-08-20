@@ -9,6 +9,7 @@ export class WhoIsITComponent {
    persons = [
     {
       img: "./assets/public/exercise-3/001-man.svg",
+      name:"juan",
       gender: "Man",
       hairColor: "Black",
       moustache: "No",
@@ -20,6 +21,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/002-man.svg",
+      name:"Luis",
       gender: "Man",
       hairColor: "Blonde",
       moustache: "No",
@@ -31,6 +33,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/003-man.svg",
+      name:"Jose",
       gender: "Man",
       hairColor: "Black",
       moustache: "No",
@@ -42,6 +45,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/004-man.svg",
+      name:"Alberto",
       gender: "Man",
       hairColor: "Blonde",
       moustache: "No",
@@ -53,6 +57,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/005-man.svg",
+      name:"Raul",
       gender: "Man",
       hairColor: "Black",
       moustache: "No",
@@ -64,6 +69,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/006-man.svg",
+      name:"Jesus",
       gender: "Man",
       hairColor: "Brown",
       moustache: "Yes",
@@ -75,6 +81,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/007-man.svg",
+      name:"Miguel",
       gender: "Man",
       hairColor: "Red",
       moustache: "No",
@@ -86,6 +93,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/008-man.svg",
+      name:"John",
       gender: "Man",
       hairColor: "Black",
       moustache: "No",
@@ -97,6 +105,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/009-man.svg",
+      name:"Brandon",
       gender: "Man",
       hairColor: "Blonde",
       moustache: "No",
@@ -108,6 +117,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/010-woman.svg",
+      name:"Luisa",
       gender: "Woman",
       hairColor: "Brown",
       moustache: "No",
@@ -119,6 +129,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/011-woman.svg",
+      name:"Maria",
       gender: "Woman",
       hairColor: "Black",
       moustache: "No",
@@ -130,6 +141,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/012-woman.svg",
+      name:"Flor",
       gender: "Woman",
       hairColor: "Red",
       moustache: "No",
@@ -141,6 +153,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/013-woman.svg",
+      name:"Paula",
       gender: "Woman",
       hairColor: "White",
       moustache: "No",
@@ -152,6 +165,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/014-woman.svg",
+      name:"Sofia",
       gender: "Woman",
       hairColor: "Black",
       moustache: "No",
@@ -163,6 +177,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/015-woman.svg",
+      name:"Carmen",
       gender: "Woman",
       hairColor: "Brown",
       moustache: "No",
@@ -174,6 +189,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/016-woman.svg",
+      name:"Astrid",
       gender: "Woman",
       hairColor: "Black",
       moustache: "No",
@@ -185,6 +201,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/017-woman.svg",
+      name:"Ana",
       gender: "Woman",
       hairColor: "Blonde",
       moustache: "No",
@@ -196,6 +213,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/018-man.svg",
+      name:"Cesar",
       gender: "Man",
       hairColor: "Black",
       moustache: "No",
@@ -207,6 +225,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/019-man.svg",
+      name:"Armando",
       gender: "Man",
       hairColor: "Black",
       moustache: "No",
@@ -218,6 +237,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/020-man.svg",
+      name:"Hugo",
       gender: "Man",
       hairColor: "Blonde",
       moustache: "No",
@@ -229,6 +249,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/021-man.svg",
+      name:"Steven",
       gender: "Man",
       hairColor: "Black",
       moustache: "Yes",
@@ -240,6 +261,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/022-man.svg",
+      name:"Arturo",
       gender: "Man",
       hairColor: "Black",
       moustache: "No",
@@ -251,6 +273,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/023-man.svg",
+      name:"Luigi",
       gender: "Man",
       hairColor: "Black",
       moustache: "No",
@@ -262,6 +285,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/024-man.svg",
+      name:"Carlos",
       gender: "Man",
       hairColor: "Blonde",
       moustache: "No",
@@ -273,6 +297,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/025-man.svg",
+      name:"Alejandro",
       gender: "Man",
       hairColor: "Black",
       moustache: "No",
@@ -284,6 +309,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/026-man.svg",
+      name:"German",
       gender: "Man",
       hairColor: "Black",
       moustache: "No",
@@ -295,6 +321,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/027-woman.svg",
+      name:"Indra",
       gender: "Woman",
       hairColor: "Black",
       moustache: "No",
@@ -306,6 +333,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/028-woman.svg",
+      name:"Carla",
       gender: "Woman",
       hairColor: "Black",
       moustache: "No",
@@ -317,6 +345,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/029-woman.svg",
+      name:"Estrella",
       gender: "Woman",
       hairColor: "Black",
       moustache: "No",
@@ -328,6 +357,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/030-woman.svg",
+      name:"Lucero",
       gender: "Woman",
       hairColor: "Blonde",
       moustache: "No",
@@ -339,6 +369,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/031-woman.svg",
+      name:"Esmeralda",
       gender: "Woman",
       hairColor: "Black",
       moustache: "No",
@@ -350,6 +381,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/032-woman.svg",
+      name:"Rosa",
       gender: "Woman",
       hairColor: "Black",
       moustache: "No",
@@ -361,6 +393,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/033-woman.svg",
+      name:"Zita",
       gender: "Woman",
       hairColor: "Black",
       moustache: "No",
@@ -372,6 +405,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/034-woman.svg",
+      name:"Laura",
       gender: "Woman",
       hairColor: "Black",
       moustache: "No",
@@ -383,6 +417,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/035-man.svg",
+      name:"Mateo",
       gender: "Man",
       hairColor: "Black",
       moustache: "No",
@@ -394,6 +429,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/036-man.svg",
+      name:"Martin",
       gender: "Man",
       hairColor: "Black",
       moustache: "No",
@@ -405,6 +441,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/037-man.svg",
+      name:"Leo",
       gender: "Man",
       hairColor: "Black",
       moustache: "No",
@@ -416,6 +453,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/038-man.svg",
+      name:"Manuel",
       gender: "Man",
       hairColor: "Blonde",
       moustache: "No",
@@ -427,6 +465,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/039-man.svg",
+      name:"Adel",
       gender: "Man",
       hairColor: "Black",
       moustache: "Yes",
@@ -438,6 +477,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/040-man.svg",
+      name:"Adonis",
       gender: "Man",
       hairColor: "Black",
       moustache: "No",
@@ -449,6 +489,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/041-man.svg",
+      name:"Ajaz",
       gender: "Man",
       hairColor: "Blonde",
       moustache: "No",
@@ -460,6 +501,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/042-man.svg",
+      name:"Akos",
       gender: "Man",
       hairColor: "Black",
       moustache: "No",
@@ -471,6 +513,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/043-woman.svg",
+      name:"Josefa",
       gender: "Woman",
       hairColor: "Black",
       moustache: "No",
@@ -482,6 +525,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/044-woman.svg",
+      name:"Isabel",
       gender: "Woman",
       hairColor: "Black",
       moustache: "No",
@@ -493,6 +537,7 @@ export class WhoIsITComponent {
     },
     {
       img: "./assets/public/exercise-3/045-woman.svg",
+      name:"Cristina",
       gender: "Woman",
       hairColor: "Black",
       moustache: "No",

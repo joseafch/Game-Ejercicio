@@ -41,6 +41,9 @@ moustacheNo=false
  longHairNO=false
 
 youHave(question:any){
-question=Boolean
-}
+  question=Boolean
+  }
+  recarga(){
+    location.reload()
+  }
 }
