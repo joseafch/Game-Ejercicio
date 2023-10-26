@@ -43,67 +43,71 @@
 
 
 }" src="{{gente.img}}" alt="">
+<p class="p-name">{{gente.name}}</p>
 
     </div >
 </div>
     <div class="button-div-padre">
     <div class="box-button">
-   <div class="question"> <h3>Genero</h3></div>
+   <div class="question"> <h3>Genero</h3></div> 
     
 
-<button  (click)='youHave(man=true)'>Hombre</button>
-<button  (click)='youHave(woman=true)'>Mujer</button>
+<button class="button-option"  (click)='youHave(woman=true)'>Hombre</button>
+<button class="button-option"  (click)='youHave(man=true)'>Mujer</button>
 </div>
 
 <div class="box-button"><!-- color de pelo-->
    <div class="question"> <h3>Pelo</h3></div>
 
-    <button  (click)='youHave(hairBlonde=true)'>Rubia</button>
-<button  (click)='youHave(hairRed=true)'>Rojo</button>
-<button  (click)='youHave(hairPink=true)'>rosa</button>
-<button  (click)='youHave(hairBrown=true)'>Marron</button>
-<button  (click)='youHave(hairWhite=true)'>Blanco(suggarDady/Mommy)</button>
-<button  (click)='youHave(hairBlack=true)'>Negro</button>
+    <button class="button-option" (click)='youHave(hairBlonde=true)'>Rubia</button>
+<button class="button-option"  (click)='youHave(hairRed=true)'>Rojo</button>
+<button class="button-option" (click)='youHave(hairBrown=true)'>Marron</button>
+<button class="button-option" (click)='youHave(hairWhite=true)'>Blanco(suggarDady/Mommy)</button>
+<button  class="button-option" (click)='youHave(hairBlack=true)'>Negro</button>
 </div>
 <div class="box-button"><!-- bigote-->
    <div class="question"> <h3>Bigote</h3></div>
     
-    <button  (click)='youHave(moustacheSi=true)'>si</button>
-    <button  (click)='youHave(moustacheNo=true)'>No</button>
+    <button  class="button-option" (click)='youHave(moustacheNo=true)'>si</button>
+    <button class="button-option"  (click)='youHave(moustacheSi=true)'>No</button>
 </div>
 <div class="box-button"><!-- lentes-->
    <div class="question"> <h3>Lentes</h3></div>
 
-    <button  (click)='youHave(glassesSi=true)'>si</button>
-    <button  (click)='youHave(glassesNo=true)'>No</button>
+    <button class="button-option" (click)='youHave(glassesNo=true)'>si</button>
+    <button class="button-option" (click)='youHave(glassesSi=true)'>No</button>
 </div>
 <div class="box-button"><!-- gorra-->
    <div class="question"> <h3>Sombrero o Gorra</h3></div>
 
-    <button  (click)='youHave(hatSi=true)'>si</button>
-    <button  (click)='youHave(hatNo=true)'>No</button>
+    <button  class="button-option"(click)='youHave(hatNo=true)'>si</button>
+    <button class="button-option" (click)='youHave(hatSi=true)'>No</button>
 </div>
 <div class="box-button"><!-- color de ropa-->
    <div class="question"> <h3>Color de ropa</h3></div>
 
-    <button  (click)='youHave(clothesOrange=true)'>Naranjaa</button>
-    <button  (click)='youHave(clothesRed=true)'>Roja</button>
-    <button  (click)='youHave(clothesPink=true)'>Rosa</button>
-    <button  (click)='youHave(clothesGreen=true)'>Verde</button>
-    <button  (click)='youHave(clothesWhite=true)'>Blanca</button>
-    <button  (click)='youHave(clothesBlack=true)'>Negra</button>
+    <button class="button-option" (click)='youHave(clothesOrange=true)'>Naranjaa</button>
+    <button  class="button-option"(click)='youHave(clothesRed=true)'>Roja</button>
+    <button class="button-option" (click)='youHave(clothesPink=true)'>Rosa</button>
+    <button class="button-option" (click)='youHave(clothesGreen=true)'>Verde</button>
+    <button  class="button-option"(click)='youHave(clothesWhite=true)'>Blanca</button>
+    <button  class="button-option"(click)='youHave(clothesBlack=true)'>Negra</button>
     </div>
     <div class="box-button"><!-- color de piel-->
    <div class="question"> <h3>Tono de piel</h3></div>
 
-        <button  (click)='youHave(skinColorLigth=true)'>Claro</button>
-        <button  (click)='youHave(skinColorDarck=true)'>Oscuro</button>
+        <button class="button-option"  (click)='youHave(skinColorDarck=true)'>Claro</button>
+        <button class="button-option" (click)='youHave(skinColorLigth=true)'>Oscuro</button>
     </div>
     <div class="box-button"><!-- largo de pelo-->
    <div class="question"> <h3>Tamaño del Pelo</h3></div>
 
-        <button  (click)='youHave(longHairYes=true)'>Largo</button>
-        <button  (click)='youHave(longHairNO=true)'>Corto</button>
+        <button class="button-option" (click)='youHave(longHairNO=true)'>Largo</button>
+        <button class="button-option" (click)='youHave(longHairYes=true)'>Corto</button>
     </div>
+    <div class="box-button"><!-- largo de pelo-->
+             <button class="button-option" (click)='recarga()'>Reload</button>
+        
+         </div>
 </div>
 </div>

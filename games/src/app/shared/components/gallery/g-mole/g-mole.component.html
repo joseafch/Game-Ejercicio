@@ -6,7 +6,7 @@
     <div>
         <h3>score({{score}})</h3>
     </div>
-    <div class="cards-box">
+    <div *ngIf=" time !== 0 " class="cards-box">
         <div class="mole-div" *ngFor="let topo of mole ">
 
             <div *ngIf="topo.id===1" class="div-img-topo">
@@ -19,9 +19,25 @@
 
             </div>
         </div>
+
+    </div>
+    <div *ngIf=" time == 0 ">
+        <div *ngIf=" time == 0 && score <= 8">
+        <div>
+       <img src="./assets/diglet%20(1).jpg" alt="">
+        </div>
+        <h3>Missed Hits</h3>
+    </div>
+    <div *ngIf=" time == 0 && score > 8">
+        <div>
+       <img src="./assets/ya-wey.gif" alt="">
+        </div>
+        <h3 class="well-done">Well Done</h3>
+    </div>
     </div>
     <div class="div-buttons">
-        <button (click)="boton()">play</button>
-        <button (click)="stop()">stop</button>
+        <button class="button-menu" (click)="boton()">play</button>
+        <button class="button-menu" (click)="stop()">stop</button>
+        <button class="button-menu" (click)="recarga()">reload</button>
     </div>
 </div>

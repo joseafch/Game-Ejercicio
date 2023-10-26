@@ -13,8 +13,8 @@
   
     <!-- <p class="name-planet">{{planet.name}}</p> -->
     <img class="planet-img" *ngIf="planet.selec" #imgCard src="{{planet.img}}" alt=""> <!--le ponemos una condicional para q lo muestre o no en este caso se le pone viendo si tiene propiedad y no la tiene se le crea-->
-    <img class="tick-img" *ngIf="planet.check" src="../../../../assets/public/exercise-1/tick.svg" alt="">
-    <img class="universe-img" *ngIf="!planet.selec && !planet.check "  (click)="memori(planet)" src="../../../../assets/public/exercise-1/universe.svg" alt="">
+    <img class="tick-img" *ngIf="planet.check" src="./assets/public/exercise-1/tick.svg" alt="">
+    <img class="universe-img" *ngIf="!planet.selec && !planet.check "  (click)="memori(planet)" src="./assets/public/exercise-1/universe.svg" alt="">
   
    <!-- si cualquiere de las mdos de arriba sucede el del clip no suceda -->
 </div>

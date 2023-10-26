@@ -17,14 +17,14 @@ planetas :mundosInterface[] = [
   {
     id: 1,
     name: "earth",
-    img: "../../../assets/public/exercise-1/earth.svg",
+    img: "./assets/public/exercise-1/earth.svg",
     // univese : "../../../assets/public/exercise-1/universe.svg",
     // tick: "../../../assets/public/exercise-1/tick.svg",
   },
   {
     id: 2,
     name: "jupiter",
-    img: "../../../assets/public/exercise-1/jupiter.svg",
+    img: "./assets/public/exercise-1/jupiter.svg",
     // univese : "../../../assets/public/exercise-1/universe.svg",
     // tick: "../../../assets/public/exercise-1/tick.svg",
 
@@ -33,7 +33,7 @@ planetas :mundosInterface[] = [
   {
     id: 3,
     name: "mars",
-    img: "../../../assets/public/exercise-1/mars.svg",
+    img: "./assets/public/exercise-1/mars.svg",
     // univese : "../../../assets/public/exercise-1/universe.svg",
     // tick: "../../../assets/public/exercise-1/tick.svg",
 
@@ -42,7 +42,7 @@ planetas :mundosInterface[] = [
   {
     id: 4,
     name: "mercury",
-    img: "../../../assets/public/exercise-1/mercury.svg",
+    img: "./assets/public/exercise-1/mercury.svg",
     // univese : "../../../assets/public/exercise-1/universe.svg",
     // tick: "../../../assets/public/exercise-1/tick.svg",
 
@@ -51,7 +51,7 @@ planetas :mundosInterface[] = [
   {
     id: 5,
     name: "saturn",
-    img: "../../../assets/public/exercise-1/saturn.svg",
+    img: "./assets/public/exercise-1/saturn.svg",
     // univese : "../../../assets/public/exercise-1/universe.svg",
     // tick: "../../../assets/public/exercise-1/tick.svg",
 
@@ -60,7 +60,7 @@ planetas :mundosInterface[] = [
   {
     id: 6,
     name: "uranus",
-    img: "../../../assets/public/exercise-1/uranus.svg",
+    img: "./assets/public/exercise-1/uranus.svg",
     // univese : "../../../assets/public/exercise-1/universe.svg",
     // tick: "../../../assets/public/exercise-1/tick.svg",
 
@@ -69,7 +69,7 @@ planetas :mundosInterface[] = [
   {
     id: 7,
     name: "earth",
-    img: "../../../assets/public/exercise-1/earth.svg",
+    img: "./assets/public/exercise-1/earth.svg",
     // univese : "../../../assets/public/exercise-1/universe.svg",
     // tick: "../../../assets/public/exercise-1/tick.svg",
 
@@ -78,7 +78,7 @@ planetas :mundosInterface[] = [
   {
     id: 8,
     name: "jupiter",
-    img: "../../../assets/public/exercise-1/jupiter.svg",
+    img: "./assets/public/exercise-1/jupiter.svg",
     // univese : "../../../assets/public/exercise-1/universe.svg",
     // tick: "../../../assets/public/exercise-1/tick.svg",
 
@@ -87,7 +87,7 @@ planetas :mundosInterface[] = [
   {
     id: 9,
     name: "mars",
-    img: "../../../assets/public/exercise-1/mars.svg",
+    img: "./assets/public/exercise-1/mars.svg",
     // univese : "../../../assets/public/exercise-1/universe.svg",
     // tick: "../../../assets/public/exercise-1/tick.svg",
 
@@ -96,7 +96,7 @@ planetas :mundosInterface[] = [
   {
     id: 10,
     name: "mercury",
-    img: "../../../assets/public/exercise-1/mercury.svg",
+    img: "./assets/public/exercise-1/mercury.svg",
     // univese : "../../../assets/public/exercise-1/universe.svg",
     // tick: "../../../assets/public/exercise-1/tick.svg",
 
@@ -105,7 +105,7 @@ planetas :mundosInterface[] = [
   {
     id: 11,
     name: "saturn",
-    img: "../../../assets/public/exercise-1/saturn.svg",
+    img: "./assets/public/exercise-1/saturn.svg",
     // univese : "../../../assets/public/exercise-1/universe.svg",
     // tick: "../../../assets/public/exercise-1/tick.svg",
 
@@ -114,7 +114,7 @@ planetas :mundosInterface[] = [
   {
     id: 12,
     name: "uranus",
-    img: "../../../assets/public/exercise-1/uranus.svg",
+    img: "./assets/public/exercise-1/uranus.svg",
     // univese : "../../../assets/public/exercise-1/universe.svg",
     // tick: "../../../assets/public/exercise-1/tick.svg",
 

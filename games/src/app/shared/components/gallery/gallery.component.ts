@@ -20,7 +20,7 @@ export class GalleryComponent implements OnInit {
     {
       id: 1,
       name: 'earth',
-      img: '../../../assets/public/exercise-1/earth.svg',
+      img: './assets/public/exercise-1/earth.svg',
     },
   ]; // accinarle nustra interface a las variables que contengas los elementos de nuestra interface
 
